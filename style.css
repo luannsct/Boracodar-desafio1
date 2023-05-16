@@ -1,0 +1,191 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    cursor: default;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 56px;
+    gap: 99px;
+    position: relative;
+    width: 795px;
+    height: 689px;
+    background: #fff;
+    border-radius: 40px;
+}
+
+.headerMenu {
+    width: 168px;
+    height: 17px;
+    background: #E5D8EA;
+    border-radius: 999px;
+}
+
+.travel-information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 683px;
+    height: 82px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.alert-travel {
+    font-weight: 700;
+    color: #372D3B;
+    font-size: 40px;
+    line-height: 48.1px;
+}
+
+.name-driver {
+    color: #864293;
+}
+
+.arrival-time {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #372D3B;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+/** ----------  */
+.driver-photos-and-plate-license {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 105px;
+    width: 683px;
+    height: 170.29px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.photos-and-car {
+    width: 378px;
+    height: 170.29px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.photos-and-car>img {
+    margin: 20px 0px 0.04px 92px;
+}
+
+.photo-and-ratings span {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #372D3B;
+    margin-left: 35px;
+}
+
+.photo-and-ratings {
+    position: absolute;
+    width: 137px;
+    height: 141.37px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7.84309px 21.5685px;
+    gap: 9.8px;
+    position: absolute;
+    width: 100px;
+    height: 31.37px;
+    left: 19px;
+    top: 110px;
+    background: #372D3B;
+    border-radius: 15.6862px;
+    font-weight: 600;
+    font-size: 19.6077px;
+    color: #fff;
+}
+
+.rating i {
+    color: #fff;
+}
+
+.car-information-and-plate-license p {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #372D3B;
+}
+
+.car-information-and-plate-license .description-car {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/** 
+------------------
+*/
+.message-and-call-driver {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    width: 683px;
+    height: 64px;
+    order: 3;
+    align-self: stretch;
+}
+
+.message-box {
+    width: 516.92px;
+    height: 64px;
+    background: #F5EDF7;
+    border: none;
+    border-radius: 24px;
+    padding: 0px 20px 0px 29px;
+    top: 17px;
+    left: 29px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.message-box:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.call-and-emergency {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    width: 134.08px;
+    height: 48px;
+
+}
+
+.call-and-emergency img {
+    cursor: pointer;
+}
